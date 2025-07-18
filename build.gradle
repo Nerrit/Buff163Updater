@@ -23,7 +23,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
     implementation 'org.springframework.cloud:spring-cloud-starter-circuitbreaker-reactor-resilience4j'
-    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.19.0'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.19.2'
     implementation 'org.postgresql:postgresql'
     implementation 'org.postgresql:r2dbc-postgresql'
     implementation 'it.nerr:DatabaseManager:0.0.1-SNAPSHOT'
